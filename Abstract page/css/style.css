@@ -140,8 +140,8 @@ input[type="search"] {
   overflow: hidden;
   width: 36vw;
   height: auto;
-  
-  gap:27px;
+
+  gap: 27px;
 }
 .category-list-imgdiv {
   display: inline-flex;
@@ -167,3 +167,98 @@ input[type="search"] {
 .category-list-anchor:hover {
   text-decoration: underline;
 }
+/* Footer section */
+.footer-container {
+  border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #ffffff;
+    margin-top: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: self-end;
+}
+.footer-firstdiv {
+  border: 2px solid palevioletred;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1900px;
+  position: relative;
+  padding-bottom: 100px;
+  gap: 10vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 55px;
+}
+.footeritems {
+  border: 2px solid green;
+  line-height: 18px;
+  padding: 15px;
+}
+.footer-pre{
+  display: grid;
+  gap: 4px;
+  font-size: 16px;
+  margin-top: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.copyright {
+  position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.footer-listitems {
+  list-style-type: none;
+  margin-left: -37px;
+}
+.footer-anchor, .footer-pre-anchor{
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: end;
+}
+/* Hover anchors */
+.footer-anchor:hover{
+text-decoration: underline;
+}
+.footer-pre-anchor:hover{
+  text-decoration: underline;
+  }
+
+.abstract-logo-footer{
+  width: 45%;
+  margin-bottom: 20px;
+}
+.footer-para{
+  font-size: 20px;
+  margin: 7px;
+}
+.footer-spanbtn{
+  display: inline-flex;
+}
+
+.footer-btn{
+  border: none;
+    width: 123px;
+    height: 60px;
+    padding: 13px 22px;
+    border-radius: 34px;
+    font-size: 15px;
+    background-color: #4c5fd5;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: fixed;
+    bottom: 0px;
+    right: 1vw;
+}
+.footer-btn:hover{
+  border: 2px solid #dadbf1;
+}
+.infolink,.svg-footer-helpmark{
+  text-decoration: none;
+   color: #FFFFFf;
+    fill: #FFFFFF;
+    padding-right: 6px;
+}
+
+
